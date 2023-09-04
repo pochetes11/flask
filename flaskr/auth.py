@@ -13,17 +13,20 @@ bp = Blueprint('auth', __name__, url_prefix='/auth')
 def register():
     if request.method == 'POST':
         username = request.form['username']
+        email = request.form['email']
         password = request.form['password']
         passwordCheck = request.form['passwordCheck']
         db = get_db()
         error = None
 
         if not username:
-            error = 'Username is required.'
+            error = 'Nombre de usuario requerido.'
+        elif not email:
+            error = 'Email es requerido.'
         elif not password:
-            error = 'Password is required.'
+            error = 'Contraseña requerida.'
         elif not passwordCheck:
-            error = 'newPassword is required'
+            error = 'Verificar contraseña requerida.'
 
         if error is None:
             try:
