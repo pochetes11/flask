@@ -1,27 +1,27 @@
 html {
   font-family: sans-serif;
-  background: #eee;
+  background: rgb(84, 74, 230);
   padding: 1rem;
 }
 body {
   max-width: 960px;
   margin: 0 auto;
-  background: white;
+  background: rgb(106, 70, 238);
 }
 h1 {
   font-family: serif;
-  color: #377ba8;
+  color: #3a0155;
   margin: 1rem 0;
 }
 a {
-  color: #377ba8;
+  color: #3a0155;
 }
 hr {
   border: none;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid rgb(134, 35, 173);
 }
 nav {
-  background: lightgray;
+  background: rgb(134, 35, 173);
   display: flex;
   align-items: center;
   padding: 0 0.5rem;
