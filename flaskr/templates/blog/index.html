@@ -9,8 +9,8 @@
       <h1>{{ post['title'] }}</h1>
       <div class="about">
         Por {{ post['username'] }} el {{ post['created'].strftime('%Y-%m-%d') }}
-        email: {{g.user['email']}}
       </div>
+      <div class="about">email: {{post['email']}}</div>
     </div>
     {% if g.user['id'] == post['author_id'] %}
     <a class="action" href="{{ url_for('blog.update', id=post['id']) }}"
