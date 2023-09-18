@@ -1,27 +1,27 @@
 html {
   font-family: sans-serif;
-  background: rgb(84, 74, 230);
+  background: rgb(144, 202, 139);
   padding: 1rem;
 }
 body {
   max-width: 960px;
   margin: 0 auto;
-  background: rgb(106, 70, 238);
+  background: rgb(125, 214, 117);
 }
 h1 {
   font-family: serif;
-  color: #3a0155;
+  color: #004609;
   margin: 1rem 0;
 }
 a {
-  color: #3a0155;
+  color: #004609;
 }
 hr {
   border: none;
-  border-top: 1px solid rgb(134, 35, 173);
+  border-top: 1px solid rgb(59, 160, 0);
 }
 nav {
-  background: rgb(134, 35, 173);
+  background: rgb(59, 160, 0);
   display: flex;
   align-items: center;
   padding: 0 0.5rem;
@@ -50,7 +50,7 @@ header .action {
   padding: 0 1rem 1rem;
 }
 .content > header {
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid rgb(59, 160, 0);
   display: flex;
   align-items: flex-end;
 }
@@ -77,7 +77,7 @@ header .action {
   margin-bottom: 0;
 }
 .post .about {
-  color: slategray;
+  color: rgb(0, 111, 221);
   font-style: italic;
 }
 .post .body {
